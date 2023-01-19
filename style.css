@@ -1,0 +1,425 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+/* HEADER START HERE */
+
+section {}
+
+nav {}
+
+.container {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.logo {}
+
+.logo img {}
+
+.navbar {
+    padding: 8px;
+    margin: 3px;
+}
+
+.navbar a {
+    margin: 5px;
+    padding: 3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+/* HEADER END HERE */
+
+/* MAIN START HERE */
+
+
+/* SECTION 1 START HERE */
+
+.s1 {
+    background-image: url(../img/4.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+
+.sectiondiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.fruit {
+    margin: 8px;
+}
+
+.fruit img{
+    align-items: center;
+    border: 1px dashed black;
+    border-radius: 9px;
+}
+
+.fruittext {
+    /* height: 15vh;
+    width: 30%; */
+}
+
+.fruittext p {
+    width: auto;
+    color: white;
+    font-size: x-large;
+}
+
+/* SECTION 1 END HERE */
+
+
+
+/* SECTION 2 START HERE */
+
+
+.abcd-div {
+    /* margin-top: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    height: auto;
+    width: 100%;
+}
+
+.div1 {
+    height:200px;
+    width: 250px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.div1 img {
+    margin: 3px;
+}
+
+.div1 p {
+    margin: 5px;
+    padding: 5px;
+}
+
+.div1 a {
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* SECTION 2 END HERE */
+
+
+
+/* SECTION 3 RD START HERE */
+
+.sec3 {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.d-1 {
+    display: inline-block;
+    margin: 20px;
+    height: 40vh;
+    width: 50%;
+}
+
+.d-1 h3 {
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.d-1 img {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin: 5px;
+}
+
+.d-1 p {
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.d-2 {
+    margin-top: 20px;
+    align-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    margin: 10px;
+}
+
+.d-3 {
+    background-image: url(../img/testmonial.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 70px;
+    width: 200px;
+    margin: 7px;
+
+}
+
+.d-3 p {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+/* SECTION 3 END HERE */
+
+
+/* SECTION 4 START HERE  */
+
+.TEJAS{
+    height: auto;
+    width: 100%;
+    background-color: gray;
+}
+
+.shortinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.info1{
+    height: 200px;
+    width: 200px;
+    margin: 7px;
+    padding: 5px;
+}
+
+.info1 span,h3{
+    color: black;
+    display: block;
+    margin: 2px;
+    padding: 2px;
+}
+
+/* SECTION 4 END HERE  */
+
+
+/* FOOTER START HERE */
+
+footer{}
+
+footer h4{
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* FOOTER END HERE */
+
+
+/* MEDIA QUERY 1 START HERE */
+
+@media screen and (min-width:200px) and (max-width:500px){
+
+    .navbar a {
+     margin: 2px;
+     padding: 2px;
+     text-align: center;
+    }
+
+    .s1{
+        height: 60vh;
+    }
+
+    .fruit {
+        justify-content: flex-start;
+    }
+
+    .fruit img{
+        align-items: center;
+    }
+    .fruittext h3,span{
+        display: block;
+        width: 50%;
+        height: auto;
+    }
+
+    .d-1 {
+        display: inline-block;
+        margin: 20px;
+        height: 40vh;
+        width: auto;
+    }
+
+    .d-2 {
+        margin-top: 45px;
+        text-align: center;
+    }
+
+    
+}
+
+/* MEDIA QUERY 1 END HERE */
+
+
+/* MEDIA QUERY 2 START HERE */
+
+
+@media screen and (min-width:500px) and (max-width:1400px){
+
+    .navbar a {
+     margin: 2px;
+     padding: 2px;
+     text-align: center;
+    }
+
+    .s1{
+        height: 60vh;
+    }
+
+    .fruit {
+        justify-content: flex-start;
+    }
+
+    .fruit img{
+        align-items: center;
+    }
+    .fruittext h3,span{
+        display: block;
+        width: 50%;
+        height: auto;
+    }
+
+    .d-1 {
+        display: inline-block;
+        margin: 20px;
+        height: 40vh;
+        width: auto;
+    }
+
+    .d-2 {
+        margin-top: 45px;
+        text-align: center;
+    }
+
+    
+}
+
+
+/* MEDIA QUERY 2 END HERE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .info2{
+    border: 1px solid orange;
+    height: 200px;
+    width: 200px;
+    margin: 7px;
+    padding: 5px;
+}
+.info2 span{
+    color: white;
+    display: block;
+    margin: 3px;
+    padding: 2px;
+}
+
+.info3{
+    border: 1px solid orange;
+    height: 200px;
+    width: 200px;
+    margin: 7px;
+    padding: 5px;
+}
+.info2 span{
+    color: white;
+    display: block;
+    margin: 3px;
+    padding: 2px;
+}
+
+.info4{
+    border: 1px solid orange;
+    height: 200px;
+    width: 200px;
+    margin: 7px;
+    padding: 5px;
+}
+.info2 span{
+    color: white;
+    display: block;
+    margin: 3px;
+    padding: 2px;
+} */
+
+
+/* SECTION 4 END HERE  */
+
+
+
